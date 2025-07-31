@@ -31,8 +31,10 @@ Stereo Data Analysis Solution (SDAS) is an advanced bioinformatics software suit
   ```bash
   git clone https://github.com/STOmics/SDAS.git
   ```
+Note: The repository does not include .tar.gz file or test data.
 
 ### 3. Installation
+
 **Important:** After extraction, run the setup.sh script. Do not change the installation path or rename the directory after installation.
 
 ```bash
@@ -44,6 +46,29 @@ sh setup.sh
 ### 4. Test Run
 ```bash
 ./SDAS -h
+```
+
+```bash
+SDAS functions:
+    dataProcess                              Prerocess data, include mergeAdata, h5ad2rds, h5mu2h5ad, printAdataInfo and subsetAdata
+    cellAnnotation                           Annotate celltype of spatial transcriptomics
+    coexpress                                Identify spatially coexpressed gene modules in spatial transcriptomics
+    cellularNeighborhood                     Identify cellular neighborhood in spatial transcriptomics
+    trajectory                               Construct cell trajectories from spatial transcriptomics or scRNA-Seq data
+    CCI                                      Infer cell-cell communication in spatial transcriptomics or scRNA-Seq data
+    infercnv                                 Detect copy number variations in spatial transcriptomics or scRNA-Seq data
+    spatialDomain                            Identify spatial domain in spatial transcriptomics
+    spatialRelate                            Characterize cell-type spatial relationships for spatial transcriptomics
+    DEG                                      Identify differentially expressed genes in spatial transcriptomics or scRNA-Seq data
+    geneSetEnrichment                        Analyze functional enrichment of gene sets in spatial transcriptomics or scRNA-Seq data
+    TF                                       Analyze TF gene sets in spatial transcriptomics or scRNA-Seq data
+    PPI                                      Analyze protein-protein interaction of gene sets
+    bulkValidate                             Analyze immuneScore|geneSetScore|survivalKM in bulk RNA-Seq data
+
+For command line options of each command, type: SDAS COMMAND -h
+
+SDAS VERSION:
+     1.0.0
 ```
 
 ### 5. Other Notes
