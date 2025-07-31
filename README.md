@@ -1,6 +1,5 @@
 # Stereo Data Analysis Solution (SDAS)
 
-![SDAS Introduction](https://www.gitbook.com/cdn-cgi/image/dpr=2,width=2400,onerror=redirect,format=auto/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FCggbEDCoTSjskIWVTMeM%252Fuploads%252Fn6rrmVLDNOhW96rd40hg%252Fsdas_intro_eng.png%3Falt%3Dmedia%26token%3D3820acc1-6278-4ada-89a8-4630c4e60bf4)
 
 ## Introduction
 Stereo Data Analysis Solution (SDAS) is an advanced bioinformatics software suite for spatial transcriptomics data developed by STOmics. It provides a comprehensive solution for spatial transcriptomics data analysis, supporting the full process from raw data to biological interpretation.
@@ -10,6 +9,8 @@ Stereo Data Analysis Solution (SDAS) is an advanced bioinformatics software suit
   - Includes: data processing, cell type annotation, spatial domain identification, cellular neighborhood analysis, CNV analysis, spatial gene co-expression, differential gene identification, gene set enrichment analysis, protein interaction network analysis, cell communication analysis, trajectory analysis, transcription factor analysis, cell-type spatial relationship analysis, and public bulk database validation.
 - **Input:** h5ad files (from SAW count, SAW convert gef2h5ad), h5mu files (from SAW aggr), rds files
 - **Output:** h5ad, rds, csv, txt, png, pdf
+![SDAS Introduction](https://www.gitbook.com/cdn-cgi/image/dpr=2,width=2400,onerror=redirect,format=auto/https%3A%2F%2Ffiles.gitbook.com%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FCggbEDCoTSjskIWVTMeM%252Fuploads%252Fn6rrmVLDNOhW96rd40hg%252Fsdas_intro_eng.png%3Falt%3Dmedia%26token%3D3820acc1-6278-4ada-89a8-4630c4e60bf4)
+
 
 ## Documentation
 - English Manual: [https://mysite.gitbook.io/sdas_manual_eng/](https://mysite.gitbook.io/sdas_manual_eng/)
